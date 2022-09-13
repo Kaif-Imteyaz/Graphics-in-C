@@ -8,7 +8,7 @@ int main()
       {
 	int gdriver = DETECT, gmode, i, a;
 
-     int k=0;
+        int k=0;
 
 
 	printf("Enter delay(int only): ");
@@ -64,7 +64,7 @@ int main()
 
 
 		// Stop the screen for k sec
-		delay(5);
+		delay(k);
 
 		// Clear the screen
 		cleardevice();
