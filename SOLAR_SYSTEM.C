@@ -25,11 +25,6 @@ int main()
 	int xrad[8], yrad[8], x[8][70], y[8][70];
 	int pos[8], planet[8], tmp;
 
-	/* Initialize graphics mode by passing the three argumentsto initgraph()
-     &gdriver is the address of gdriver variable,
-     &gmode is the address of gmode
-    */
-
 	/*
 	printf("Enter delay (int only): " );
 	scanf("%d",&n);*/
@@ -38,8 +33,8 @@ int main()
 
 
 	// Mid positions at x and y-axis
-	midx = getmaxx() - 220;
-	midy = getmaxy() - 150;
+	midx = getmaxx() - 320;
+	midy = getmaxy() - 200;
 
 	// Manipulating radius of all the 8 planets
 	planet[0] = 7;
